@@ -1,0 +1,112 @@
+.container {
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(to right, rgb(76, 76, 249), rgb(0, 255, 115));
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+button {
+	font-size: 33px;
+	background-color: rgba(255, 255, 255, 0.555);
+	border: 1px solid white;
+}
+
+button:hover {
+	background-color: rgba(240, 248, 255, 0.888);
+}
+
+button:active {
+	background-color: rgba(0, 0, 0, 0.222);
+	color: rgb(238, 244, 249);
+}
+
+.display {
+	display: flex;
+	flex-direction: column;
+	width: 380px;
+	height: 145px;
+}
+
+.calcDisplay {
+	padding-top: 15px;
+	width: 100%;
+	height: 75%;
+	background-color: #1d1d1ddd;
+	color: rgb(238, 244, 249);
+	font-size: 72px;
+	padding-right: 15px;
+	box-sizing: border-box;
+	justify-content: center;
+	text-align: right;
+	overflow: hidden;
+}
+
+.calcOperDisplay {
+	padding: 0;
+	border: none;
+	width: 100%;
+	height: 25%;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+	background-color: #1d1d1ddd;
+	color: rgb(238, 244, 249);
+	font-size: 29px;
+	text-align: end;
+	padding-right: 15px;
+	padding-top: 10px;
+	box-sizing: border-box;
+}
+
+.serviceBtn {
+	display: flex;
+}
+
+.numberBtn {
+	display: grid;
+	grid-template-columns: repeat(3, 95px);
+	grid-template-rows: repeat(4, 95px);
+}
+
+.operBtn {
+	display: grid;
+	grid-template-columns: 95px;
+	grid-template-rows: repeat(3, 95px);
+	height: 285px;
+}
+
+.btnAC {
+	width: 190px;
+	height: 95px;
+}
+
+.equal {
+	width: 190px;
+	height: 95px;
+	z-index: 50;
+}
+
+.btnDel {
+	width: 95px;
+	height: 95px;
+}
+
+.numsAndOperBtn {
+	display: flex;
+}
+
+.operators {
+	width: 95px;
+	height: 95px;
+}
+
+#left-corner {
+	border-bottom-left-radius: 15px;
+	
+}
+
+#right-corner {
+	border-bottom-right-radius: 15px;
+}
